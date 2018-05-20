@@ -20,6 +20,7 @@
   "homepage": "https://github.com/xhrsteven/FriendFinder#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "chosen-js": "^1.8.5",
     "express": "^4.16.3",
     "path": "^0.12.7"
   }
