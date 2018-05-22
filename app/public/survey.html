@@ -313,11 +313,26 @@
             $("#match-img").attr("src", data.photo);
 
             // Show the modal with the best match
-            $("#myModal").modal("toggle");
+            $("#myModal").modal();
+
+            //clear form after submission
+            $('#name-input').val("");
+            $('#img-input').val("");
+            $('#q1').val("");
+            $('#q2').val("");
+            $('#q3').val("");
+            $('#q4').val("");
+            $('#q5').val("");
+            $('#q6').val("");
+            $('#q7').val("");
+            $('#q8').val("");
+            $('#q9').val("");
+            $('#q10').val("");
           });
         }else{
             alert('Please fill out all the questions!');
         };
+        
       });
 </script>
     
