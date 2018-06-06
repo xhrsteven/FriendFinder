@@ -16,11 +16,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 </head>
 <style>
-
+#content{
+    border-style: solid;
+    border-color: blueviolet;
+}
 </style>
 <body>
-    <div class="container">
-        <h2>Survey Questions</h2>
+    <div id = 'content' class="container">
+        <h2 class="text-center">Survey Questions</h2>
         <hr>
         <form role="form">
             <h2>About You</h2>
@@ -229,7 +232,7 @@
         </div>    
 
     </div>  
-    <!-- modal   -->
+    <!-- modal  -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -241,7 +244,7 @@
                 </div>
                 <div class="modal-body">
                     <h3 id="match-name"></h3>
-                    <img id="match-img">
+                    <img id="match-img" src='' width=200px>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -329,6 +332,7 @@
             $('#q9').val("");
             $('#q10').val("");
           });
+
         }else{
             alert('Please fill out all the questions!');
         };
