@@ -4,6 +4,10 @@ In this activity, I'll build a compatibility-based "FriendFinder" application --
 ## Getting Started
 https://friendfinder201.herokuapp.com/
 
+![Screen Shot](app/public/1.png)
+
+![Screen Shot](app/public/2.png)
+
 ## Technologies Used
 - Node.js
 - Body-parser NPM Package
